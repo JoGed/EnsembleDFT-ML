@@ -1,0 +1,15 @@
+--data_dir=/TrainingsSet/DictTorch_X.0.05-0.20-0.50-0.8-0.95-1.gz
+--DimsToTrain=[1, 1.05, 1.2, 1.5, 1.8, 1.95, 2,  2.05, 2.2, 2.5, 2.8, 2.95, 3]
+--Spin
+--Disc
+--WindowPlusLDA
+--epochs=1
+--batch_size=30
+--lr=0.7e-4
+--kernelsize=201
+--gpus_devices=[0]
+--LDA_in_channels=32
+--LDA_LayerOutDims=[32 32 32 1]
+--num_workers=2
+--idxs_ExtPotsTrain=[0, 1200]
+--idxs_ExtPotsVal=[1200, 1300]

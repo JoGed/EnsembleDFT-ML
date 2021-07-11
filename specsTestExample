@@ -1,0 +1,13 @@
+--model_ckpt=/tb_logs/runs/f-{s}_t-11-07-2021_19:07:22_prefix:@specsTrainExample_Disc:True_Spin:True_KS:201_WPLDA:True_L:32_32_32_1__Tridx:0_1200__DtoT:1.0_1.05_1.2_1.5_1.8_1.95_2.0_2.05_2.2_2.5_2.8_2.95_3.0_SpMirr:FalsetrJump:False/epoch=0-val_loss=16.99166.ckpt
+--PlotEnergies
+--data_dir=/TrainingsSet/DictTorch_X.0.05-0.20-0.50-0.8-0.95-1.gz
+--PlotEnergies
+--FracPoints=10
+--image_dir=/Pics
+--SystemIdx=1
+--gpus_devices=[0]
+--idxs_ExtPotsTest=[1400,1402]
+--plot_label=TestModel
+--PlotVxcFrac=2.01
+--VxcFracFile=/TestSetsSpecial/Vxc_Jump_0.01-0.02-1.csv
+--H2Dissociation=/TestSetsSpecial/DensData_H2_11_5.csv
