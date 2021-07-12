@@ -2,7 +2,8 @@
 This code provides the ML training & testing methods used in the paper "Machine learning the derivative discontinuity of density-functional theory" (https://arxiv.org/abs/2106.16075)
 
 #### To run the code we propose to do the following steps:
-* Read the requirements.  The python version and necessary packages (+versions) which have been used for the training are listed here
+
+* Read the requirements.  The python version and necessary packages (+versions) which have been used for the ML training & testing are listed here
 * Copy all files into an arbitrary directory where you create the new folders *TrainingsSets*, *TestSetsSpecial* and *Pics*. 
 * Download the *Sets.zip* from https://zenodo.org/record/5091466#.YOwD-TqxVH4. 
   It contains the files 
