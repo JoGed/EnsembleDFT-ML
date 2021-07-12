@@ -4,7 +4,7 @@ This code provides the ML training & testing methods used in the paper "Machine 
 #### To run the code we propose to do the following steps:
 * Read the requirements.  The python version and necessary packages (+versions) which have been used for the training are listed here
 * Copy all files into an arbitrary directory where you create the new folders *TrainingsSets*, *TestSetsSpecial* and *Pics*. 
-* Download the *Sets.zip* from XXXXXXXXXXXXXXX. 
+* Download the *Sets.zip* from https://zenodo.org/record/5091466#.YOwD-TqxVH4. 
   It contains the files 
   1. *DictTorch_X.0.05-0.20-0.50-0.8-0.95-1.gz* -> data used for training, validating and testing
   2. *DensData_H2_11_5.csv* -> data used for the prediction of H_2 dissociation curve
