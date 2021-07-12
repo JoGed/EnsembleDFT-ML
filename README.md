@@ -12,8 +12,9 @@ This code provides the ML training & testing methods used in the paper "Machine 
   3. *xc_Jump_0.01-0.02-1.csv* -> data containg 0.01 fractional densities used to verify the uniform jump of the xc potential
 * Extract *DictTorch_X.0.05-0.20-0.50-0.8-0.95-1.gz* into the *TrainingsSets* folder, and *DensData_H2_11_5.csv* and * *Vxc_Jump_0.01-0.02-1.csv* into the *TestSetsSpecial* folder 
 * For training of models via train.py use a file containing all arguments/hyperparameters - e.g. named *specsTrainExample* - and to type command ```python train.py @specsTrainExample``` (an example of the file with the same name is already provided)
+* This example file trains for one epoch
 * The training should produce tensorboard logs and pytorch lightning checkpoint files
 * For testing of models via test.py  we propose to use a file containing all arguments as well - e.g. named *specsTestExample* - and to type command ```python test.py @specsTestExample``` (an example of the file with the same name is already provided)
 * Type ``-h`` instead of ``@specsTrainExample`` or ``@specsTestExample`` for a detailed description of all necessary and optional arguments being available
-* The files *H2Dissociation_TestModel.pdf* and *VxcJump_TestModel.pdf* should be the ouput files obtained by passing the arguments (in specsTrainExample & specsTestExample) for training and testing respectively
+* The files *H2Dissociation_TestModel.pdf* and *VxcJump_TestModel.pdf* should be the ouput files obtained by passing the arguments (in specsTrainExample & specsTestExample) for training and testing respectively and should look somewhat similar
 * the files m101-m107 in *Models.zip* containing different hyperparameters correspond to the models presented in the paper
