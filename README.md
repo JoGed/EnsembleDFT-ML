@@ -12,6 +12,6 @@ This code provides the ML training & testing methods used in the paper "Machine 
 * Extract *DictTorch_X.0.05-0.20-0.50-0.8-0.95-1.gz* into the *TrainingsSets* folder, and *DensData_H2_11_5.csv* and * *Vxc_Jump_0.01-0.02-1.csv* into the *TestSetsSpecial* folder 
 * For training of models via train.py  we propose to use a file containing all arguments - e.g. named *specsTrainExample* - and to type command ```python train.py @specsTrainExample```
 * An example of the specs for training is given by the file *specsTrainExample*
-* For testing of models via test.py  we propose to use a file containing all arguments as well - e.g. named *specsTestExample* - and to type command ```python test.py @specstestExample```
+* For testing of models via test.py  we propose to use a file containing all arguments as well - e.g. named *specsTestExample* - and to type command ```python test.py @specsTestExample```
 * An example of the specs for training is given by the file *specsTestExample*
 * Type ``-h`` instead of ``@specsTrainExample`` or ``@specsTestExample`` for a detailed description of all necessary and optional arguments being available
