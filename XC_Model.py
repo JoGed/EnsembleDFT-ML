@@ -1097,6 +1097,12 @@ class XC_Model(pl.LightningModule):
       Dens_up_frac = torch.from_numpy(floatArray(Set_exact_frac['Dens_data_up'][i])).double().view(1, 1, -1)
       Dens_down_int = torch.from_numpy(floatArray(Set_exact_int['Dens_data_down'][i])).double().view(1, 1, -1)
       Dens_down_frac = torch.from_numpy(floatArray(Set_exact_frac['Dens_data_down'][i])).double().view(1, 1, -1)
+      
+      #---fix NORMALIZATION -----
+      Dens_tot_int  = (Dens_tot_int  / (Dens_tot_int.sum() * dx)) * int(N - frac)
+      Dens_tot_frac = (Dens_tot_frac / (Dens_tot_frac.sum() * dx)) * N
+      #---------------------------
+      
       DensUpAndDown_int = torch.cat((Dens_up_int, Dens_down_int), 1)
       DensUpAndDown_frac = torch.cat((Dens_up_frac, Dens_down_frac), 1)
       Dens_int = DensUpAndDown_int if self.hparams.Spin else Dens_tot_int
