@@ -16,5 +16,5 @@ This code provides the ML training & testing methods used in the paper "Machine 
 * The training should produce tensorboard logs and pytorch lightning checkpoint files
 * For testing of models via test.py  we propose to use a file containing all arguments as well - e.g. named *specsTestExample* - and to type command ```python test.py @specsTestExample``` (an example of the file with the same name is already provided)
 * Type ``-h`` instead of ``@specsTrainExample`` or ``@specsTestExample`` for a detailed description of all necessary and optional arguments being available
-* The files *H2Dissociation_TestModel.pdf* and *VxcJump_TestModel.pdf* should be the ouput files obtained by passing the arguments (in specsTrainExample & specsTestExample) for training and testing respectively and should look somewhat similar
+* *TestPics.zip* contains the ouput files obtained by passing the arguments (in specsTrainExample & specsTestExample) for training and testing respectively and should look somewhat similar
 * the files m101-m107 in *Models.zip* containing different hyperparameters correspond to the models presented in the paper
